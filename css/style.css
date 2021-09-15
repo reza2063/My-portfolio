@@ -1,10 +1,8 @@
-
-
 /*======
-# General
+ General
 =================*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:sans-serif;
   color: #272829;
 }
 
@@ -18,7 +16,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family:sans-serif;
 }
 
 /*=========
@@ -41,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top i {
   font-size: 24px;
   position: absolute;
-  top: 7px;
+  top:0px;
   left: 8px;
 }
 
@@ -340,6 +338,7 @@ section {
 ======================*/
 .facts {
   padding-bottom: 30px;
+  background: #d0e9ff8a;
 }
 
 .facts .count-box {
@@ -699,6 +698,10 @@ section {
 /*========
 # Services  
 ===================*/
+#services {
+    background: #eff8ff;
+}
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -731,7 +734,7 @@ section {
 
 .services .icon-box .icon svg path {
   transition: 0.5s;
-  fill: #f5f5f5;
+  fill:#f7e1e1ab;
 }
 
 .services .icon-box h4 {
@@ -931,8 +934,8 @@ section {
   justify-content: center;
   border-radius: 50px;
   width: 32px;
-  height: 32px;
-  background: #eff2f8;
+  height: 31px;
+  background: #cfdfff;
 }
 
 .team .member .social a i {
@@ -952,10 +955,6 @@ section {
 .team .member .social a + a {
   margin-left: 8px;
 }
-
-
-
-
 
 /*========
 # Testimonials
@@ -1062,11 +1061,11 @@ section {
 }
 
 .contact .info-box i {
-  font-size: 32px;
-  color: #e03a3c;
-  border-radius: 50%;
-  padding: 8px;
-  border: 2px dotted #f8d4d5;
+    font-size: 26px;
+    color: #e03a3c;
+    border-radius: 50%;
+    padding: 8px 10px;
+    border: 2px dotted #f8d4d5;
 }
 
 .contact .info-box h3 {
@@ -1159,7 +1158,7 @@ section {
 
 .contact .php-email-form button[type="submit"] {
   background: #e03a3c;
-  border: 0;
+  border: 1px solid #e03a3c;
   padding: 10px 32px;
   color: #fff;
   transition: 0.5s;
@@ -1285,6 +1284,7 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  padding-left: 0;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1301,17 +1301,13 @@ section {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 10px 5px;
   display: flex;
   align-items: center;
 }
 
 #footer .footer-top .footer-links ul li:hover {
   background:#1a1919;
-}
-
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top:5px;
 }
 
 #footer .footer-top .footer-links ul a {
@@ -1381,15 +1377,13 @@ section {
   color: #fff;
 }
 
-
-
-/*===================
+/*========
 copyright_area
-==========================*/
-
+=================*/
 #copyright_area {
     background: #c3e3ff;
 	padding: 0;
+	padding-bottom: 1rem;
 }
 
 .copyright_info_right .nav{
@@ -1410,4 +1404,3 @@ copyright_area
 .copyright_info_right .nav li:hover{
 	background:#8fcbff;
 }
-
